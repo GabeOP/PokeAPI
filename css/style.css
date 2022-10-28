@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 body{
     background-color: rgb(218, 238, 255);
@@ -16,12 +18,12 @@ body{
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: bisque;
-    height: 50vh;
-    min-height: 290px;
+    min-height: max-content;
     width: 80vw;
     max-width: 600px;
     border: 1px solid black;
     border-radius: 10px;
+    padding-block: 20px
 }
 #res{
     font-size: 2rem;
